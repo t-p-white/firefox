@@ -218,10 +218,7 @@ fun OnboardingScreen(
             onMarketingDataSkipClick()
             scrollToNextPageOrDismiss()
         },
-        onSyncPairingScanClick = {
-            onSyncPairingScanClick()
-            scrollToNextPageOrDismiss()
-        },
+        onSyncPairingScanClick = onSyncPairingScanClick,
         onSyncPairingEmailClick = {
             onSyncPairingEmailClick()
             scrollToNextPageOrDismiss()
